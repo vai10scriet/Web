@@ -8,7 +8,7 @@ public class P6 {
 	{
 		
 		
-	System.out.println(getData("List fen","Silent "));	
+	System.out.println(getData("Listfen","Silent "));	
 		
 		
 	}
