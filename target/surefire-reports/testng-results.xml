@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="93" started-at="2022-06-12T19:23:03 IST" finished-at="2022-06-12T19:23:03 IST">
+    <groups>
+      <group name="demo">
+        <method signature="APITest.EndAPI()[pri:2, instance:com.makemytrip.Web.APITest@5d76b067]" name="EndAPI" class="com.makemytrip.Web.APITest"/>
+        <method signature="APITest.ProcessAPI()[pri:1, instance:com.makemytrip.Web.APITest@5d76b067]" name="ProcessAPI" class="com.makemytrip.Web.APITest"/>
+        <method signature="SeleniumTest.startSelenium()[pri:0, instance:com.makemytrip.Web.SeleniumTest@2a17b7b6]" name="startSelenium" class="com.makemytrip.Web.SeleniumTest"/>
+        <method signature="VDITest.startVDI()[pri:0, instance:com.makemytrip.Web.VDITest@72b6cbcc]" name="startVDI" class="com.makemytrip.Web.VDITest"/>
+      </group> <!-- demo -->
+    </groups>
+    <test name="Test" duration-ms="93" started-at="2022-06-12T19:23:03 IST" finished-at="2022-06-12T19:23:03 IST">
+      <class name="com.makemytrip.Web.VDITest">
+        <test-method status="PASS" signature="startVDI()[pri:0, instance:com.makemytrip.Web.VDITest@72b6cbcc]" name="startVDI" duration-ms="8" started-at="2022-06-12T19:23:03 IST" finished-at="2022-06-12T19:23:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startVDI -->
+      </class> <!-- com.makemytrip.Web.VDITest -->
+      <class name="com.makemytrip.Web.APITest">
+        <test-method status="PASS" signature="ProcessAPI()[pri:1, instance:com.makemytrip.Web.APITest@5d76b067]" name="ProcessAPI" duration-ms="1" started-at="2022-06-12T19:23:03 IST" finished-at="2022-06-12T19:23:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessAPI -->
+        <test-method status="PASS" signature="EndAPI()[pri:2, instance:com.makemytrip.Web.APITest@5d76b067]" name="EndAPI" duration-ms="1" started-at="2022-06-12T19:23:03 IST" finished-at="2022-06-12T19:23:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndAPI -->
+      </class> <!-- com.makemytrip.Web.APITest -->
+      <class name="com.makemytrip.Web.SeleniumTest">
+        <test-method status="PASS" signature="startSelenium()[pri:0, instance:com.makemytrip.Web.SeleniumTest@2a17b7b6]" name="startSelenium" duration-ms="3" started-at="2022-06-12T19:23:03 IST" finished-at="2022-06-12T19:23:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSelenium -->
+      </class> <!-- com.makemytrip.Web.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
