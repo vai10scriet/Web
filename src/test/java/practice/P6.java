@@ -9,7 +9,7 @@ public class P6 {
 		
 		
 
-	System.out.println(getData("Listfen","Silen t "));	
+	System.out.println(getData("Listfen","Silen t"));	
 
 
 		
