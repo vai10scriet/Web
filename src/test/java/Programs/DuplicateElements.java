@@ -8,6 +8,8 @@ import java.util.Set;
 
 public class DuplicateElements {
 	
+	//Duplicate elements in String Array
+	
 	public static void main(String args[])
 	{
 		

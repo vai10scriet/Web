@@ -9,8 +9,8 @@ public class P1 {
 	
 	public static void main(String args[])
 	{
-		//String str="007 india india";
-		String str=null;
+		String str="007 india india";
+		//String str=null;
 		
 		
 		

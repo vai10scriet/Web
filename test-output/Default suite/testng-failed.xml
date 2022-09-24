@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.makemytrip.Web.TestLogin">
+      <class name="practice.P2">
         <methods>
-          <include name="test_loginPage"/>
-          <include name="setup"/>
+          <include name="testMethod1"/>
+          <include name="testMethod"/>
         </methods>
-      </class> <!-- com.makemytrip.Web.TestLogin -->
+      </class> <!-- practice.P2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
